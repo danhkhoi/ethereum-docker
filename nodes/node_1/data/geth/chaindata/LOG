@@ -1,20 +1,18 @@
-=============== Mar 5, 2021 (CET) ===============
-12:10:12.730983 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-12:10:12.773655 db@open opening
-12:10:12.785336 version@stat F·[] S·0B[] Sc·[]
-12:10:12.818125 db@janitor F·2 G·0
-12:10:12.820269 db@open done T·40.666419ms
-12:10:12.824899 db@close closing
-12:10:12.825104 db@close done T·202.058µs
-=============== Mar 5, 2021 (UTC) ===============
-11:10:21.504894 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-11:10:21.558646 version@stat F·[] S·0B[] Sc·[]
-11:10:21.560524 db@open opening
-11:10:21.563357 journal@recovery F·1
-11:10:21.585817 journal@recovery recovering @1
-11:10:21.669342 memdb@flush created L0@2 N·10 S·694B "HԘ..\xad\v\xae,v3":"r\x00\x00..\xad\v\xae,v5"
-11:10:21.684475 version@stat F·[1] S·694B[694B] Sc·[0.25]
-11:10:21.755761 db@janitor F·3 G·0
-11:10:21.759882 db@open done T·197.0663ms
-11:11:18.507497 db@close closing
-11:11:18.513356 db@close done T·5.8579ms
+=============== Dec 5, 2022 (UTC) ===============
+17:16:14.319734 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:16:14.329503 db@open opening
+17:16:14.342833 version@stat F·[] S·0B[] Sc·[]
+17:16:14.345486 db@janitor F·2 G·0
+17:16:14.345524 db@open done T·15.991498ms
+=============== Dec 6, 2022 (UTC) ===============
+00:06:26.929819 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:06:26.930968 version@stat F·[] S·0B[] Sc·[]
+00:06:26.931028 db@open opening
+00:06:26.931101 journal@recovery F·1
+00:06:26.936009 journal@recovery recovering @1
+00:06:27.010661 memdb@flush created L0@2 N·21271 S·2MiB "\x00\x00\xae..\x82\x88\x11,v497":"\xff\xfc\x94..\xa5\x05\xa1,v626"
+00:06:27.012924 version@stat F·[1] S·2MiB[2MiB] Sc·[0.25]
+00:06:27.021509 db@janitor F·3 G·0
+00:06:27.022002 db@open done T·90.929719ms
+00:08:54.554268 db@close closing
+00:08:54.554318 db@close done T·50.037µs

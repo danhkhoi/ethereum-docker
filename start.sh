@@ -41,11 +41,11 @@ getIpAddress(){
 getNumberNodes number_node
 getNodesPath nodes_path
 getChainId chain_id
-#getIpAddress addresses
+getIpAddress addresses
 
 # Generate the cryptographic material for all nodes
 createNodes(){
-    if [ -d "$nodes_path" ]; then rm -Rf $nodes_path; fi
+    #if [ -d "$nodes_path" ]; then rm -Rf $nodes_path; fi
     for i in `seq 1 $number_node`;
     do
         mkdir -p "$nodes_path/node_$i"
