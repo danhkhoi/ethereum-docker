@@ -2,8 +2,6 @@ import json
 import codecs
 from Crypto.Hash import keccak
 import sys
-import os
-import ecdsa
 
 nodes_path = sys.argv[1]
 number_node =  sys.argv[2]
