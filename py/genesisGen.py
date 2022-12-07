@@ -10,7 +10,7 @@ def exportGenesis(consortium,chainId):
 	pubKeyList = readPubKeys()
 	addressList = getAdresses(pubKeyList)
 	res = {}
-	println("DDDD")
+	
 	if consortium == "poa" :
 		res = cliqueGenesis(addressList,chainId)
 	with open(nodes_path+"/genesis.json", "a+") as outfile :
